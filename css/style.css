@@ -4,12 +4,8 @@ body,
     width: 1200px;
     margin: 0 auto;
     padding: 0;
-
-
-    font-family: 'PT Sans', sans-serif;
-
-    font-family: 'Cuprum', sans-serif;
-
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: 'Cuprum', 'Arial', sans-serif;
     font-size: 17px;
     line-height: 18px;
     background-color: #ffffff;
@@ -82,7 +78,7 @@ a {
     width: 270px;
 }
 
-.header-hat-list {
+.header-hat-wrap {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -92,20 +88,20 @@ a {
     line-height: 18px;
 }
 
-.header-hat-list li {
+.header-hat-wrap div {
     font-size: 17px;
     line-height: 18px;
 }
 
-.header-hat-list li:nth-child(2) {
+.header-hat-wrap div:nth-child(2) {
     width: 149px;
 }
 
-.header-hat-list li:nth-child(3) {
+.header-hat-wrap div:nth-child(3) {
     width: 150px;
 }
 
-.header-hat-list a {
+.header-hat-wrap a {
     position: relative;
     padding: 12px 0;
     display: block;
@@ -132,12 +128,12 @@ a {
     background-color: #63a63e;
 }
 
-.header-hat-list a:hover,
+.header-hat-wrap a:hover,
 .header-hat input[type="search"]:hover {
     background-color: #212a3a;
 }
 
-.header-hat-list a:hover > svg,
+.header-hat-wrap a:hover > svg,
 .header-hat input[type="search"]:hover > svg {
     opacity: 1;
 }
@@ -146,12 +142,12 @@ a {
     background-color: #5fbb2d;
 }
 
-.header-hat-list a:active {
+.header-hat-wrap a:active {
     opacity: 0.6;
     background-color: #161d29;
 }
 
-.header-hat-list a:active > svg,
+.header-hat-wrap a:active > svg,
 .header-hat .search-label:active > svg {
     opacity: 0.5;
 }
