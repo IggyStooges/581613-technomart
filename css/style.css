@@ -345,13 +345,23 @@ a {
     color: #000000;
 }
 
-.user-profile .link-login {
-    margin-right: 10px;
+.link-login span {
+    margin-left:8px;
 }
 
 .link-login:hover path,
 .link-logout:hover path {
     fill: #32425c;
+}
+
+.link-login:active path,
+.link-logout:active path{
+    fill:#c5c5c5;
+}
+
+.link-login:active span,
+.link-logout:active  {
+    opacity: 0.3;
 }
 
 .user-profile .link-logout {
