@@ -4,7 +4,6 @@ body,
     width: 1200px;
     margin: 0 auto;
     padding: 0;
-    font-family: 'PT Sans', 'Arial', sans-serif;
     font-family: 'Cuprum', 'Arial', sans-serif;
     font-size: 17px;
     line-height: 18px;
@@ -217,7 +216,7 @@ a {
     padding: 46px 130px;
     padding-bottom: 0;
     margin: 0;
-    margin-bottom: 38px;
+    margin-bottom: 37px;
 }
 
 .header-description {
@@ -225,7 +224,7 @@ a {
     padding: 0;
     margin-left: 55px;
     width: 200px;
-    padding-top: 5px;
+    padding-top: 3px;
     font-size: 16px;
     line-height: 23px;
     font-style: italic;
@@ -346,7 +345,7 @@ a {
 }
 
 .link-login span {
-    margin-left:8px;
+    margin-left: 8px;
 }
 
 .link-login:hover path,
@@ -355,12 +354,12 @@ a {
 }
 
 .link-login:active path,
-.link-logout:active path{
-    fill:#c5c5c5;
+.link-logout:active path {
+    fill: #c5c5c5;
 }
 
 .link-login:active span,
-.link-logout:active  {
+.link-logout:active {
     opacity: 0.3;
 }
 
@@ -431,7 +430,7 @@ a {
 .site-navigation a {
     display: block;
     padding-top: 21px;
-    padding-bottom: 18px;
+    padding-bottom: 17px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 17px;
@@ -1658,17 +1657,23 @@ a {
 .container-inner .page-way {
     padding-left: 130px;
     padding-right: 130px;
-    padding-top: 20px;
-    padding-bottom: 22px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+.page-way a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 13px;
+    font-family: "PT sans";
+    text-transform: uppercase;
 }
 
 .page-way span {
     display: inline-block;
-    margin-right: 13px;
-    font-size: 13px;
-    font-family: "PT sans";
-    text-transform: uppercase;
     vertical-align: middle;
+    margin: 0 13px;
 }
 
 .page-way span:first-child {
