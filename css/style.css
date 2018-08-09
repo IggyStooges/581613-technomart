@@ -10,6 +10,14 @@ body,
     background-color: #ffffff;
 }
 
+.items-list,
+.products-list,
+.services p,
+.index-columns p,
+.catalog-container {
+   font-family: 'PT sans', 'Arial', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -400,7 +408,6 @@ a {
     border-radius: 2px;
     text-align: center;
     vertical-align: middle;
-
 }
 
 .main-navigation {
@@ -419,7 +426,6 @@ a {
     list-style: none;
     box-shadow: 0 5px 0 0px #293449;
     background-color: #32425c;
-
 }
 
 .site-navigation li {
@@ -510,7 +516,7 @@ a {
 .main-container h3 {
     margin: 0;
     margin-left: -2px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     padding: 0;
     width: 135px;
     font-size: 24px;
@@ -537,7 +543,7 @@ a {
     padding: 0;
     padding-left: 25px;
     padding-right: 140px;
-    padding-top: 22px;
+    padding-top: 20px;
     padding-bottom: 22px;
 }
 
@@ -603,7 +609,6 @@ a {
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 
 .offers-list a:hover,
 .features-list a:hover {
@@ -698,10 +703,11 @@ a {
 }
 
 .slider h3 {
+    padding: 0;
+    margin-bottom: 3px;
     font-size: 36px;
     line-height: 36px;
     font-weight: bold;
-    padding: 0;
 }
 
 .slider p {
@@ -748,7 +754,6 @@ a {
 .prev-slider-btn::after {
     transform: rotate(-45deg);
 }
-
 
 .next-slider-btn {
     top: 50%;
@@ -851,7 +856,6 @@ a {
 .items-list li:hover,
 .products-list li:hover {
     box-shadow: 0 0 25px 5px #cccfd4;
-
 }
 
 .items-list li:hover > .actions,
@@ -888,6 +892,7 @@ a {
     border-radius: 3px;
     font-size: 14px;
     color: #ffffff;
+    font-family: 'Cuprum', 'Arial', sans-serif;
     text-transform: uppercase;
 }
 
@@ -905,7 +910,6 @@ a {
     border-color: #518534;
 }
 
-
 .actions .to-bookmark {
     display: block;
     width: 80px;
@@ -917,6 +921,7 @@ a {
     background-color: #ffffff;
     border: 3px solid #63a63e;
     border-radius: 3px;
+    font-family: 'Cuprum', 'Arial', sans-serif;
     font-size: 14px;
     color: #000000;
     text-transform: uppercase;
@@ -938,7 +943,8 @@ a {
     opacity: 0.3;
 }
 
-.title {
+.items-list .title,
+.products-list .title {
     width: 160px;
     margin: 0 auto;
     margin-top: 30px;
@@ -946,11 +952,11 @@ a {
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
+    color:#000000;
 }
 
 .discount {
     margin-bottom: 10px;
-    font-weight: bold;
     text-decoration: line-through;
     color: #a9a9a9;
 }
@@ -958,13 +964,12 @@ a {
 .price {
     position: relative;
     width: 80px;
-    margin: 10px auto;
+    margin: 11px 42px;
     margin-bottom: 20px;
     padding: 10px 30px;
     color: white;
     background-color: #ee3643;
     border-radius: 3px;
-    font-weight: bold;
 }
 
 .price::after {
@@ -977,6 +982,7 @@ a {
     margin: 0;
     padding: 0;
     border: 20px solid white;
+    border-bottom-width:18px;
     border-left-color: #ee3643;
 }
 
@@ -999,7 +1005,7 @@ a {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    padding-bottom: 75px;
+    padding-bottom: 66px;
     list-style: none;
 }
 
@@ -1014,7 +1020,6 @@ a {
     font-weight: bold;
     text-align: center;
 }
-
 
 .manufacturers-list a:hover {
     border: none;
@@ -1037,7 +1042,7 @@ a {
 }
 
 .main-container .services {
-    padding-top: 60px;
+    padding-top: 65px;
     padding-bottom: 60px;
     background-color: #f4f8f9;
 }
@@ -1053,7 +1058,7 @@ a {
 }
 
 .services p {
-    width: 360px;
+    width: 400px;
     padding: 0;
     margin: 0;
     padding-bottom: 25px;
@@ -1074,12 +1079,11 @@ a {
 .services-list {
     margin: 0;
     padding: 0;
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: 40px;
     width: 240px;
     box-sizing: border-box;
     list-style: none;
-    box-shadow:
 }
 
 .services-list a {
@@ -1134,7 +1138,7 @@ a {
 }
 
 .delivery-wrap p {
-    width: 250px;
+    width: 275px;
 }
 
 .delivery {
@@ -1225,7 +1229,6 @@ a {
 .contacts p {
     width: 190px;
     padding-bottom: 30px;
-
 }
 
 .index-columns .partners-list {
@@ -1553,6 +1556,7 @@ a {
     padding-right: 15px;
     border: 2px solid #dee3e4;
     border-radius: 3px;
+    resize: none;
     font-size: 13px;
     color: #a9a9a9;
 }
@@ -1716,7 +1720,6 @@ a {
 .filter-form {
     width: 219px;
 }
-
 
 .filter-wrap p {
     margin: 0;
@@ -1902,10 +1905,10 @@ input::-webkit-inner-spin-button {
     background: url("../img/checkbox-off.svg");
     background-position: 0 50%;
     background-repeat: no-repeat;
-    vertical-align: middle;
+    font-size:15px;
+    line-height:20px;
     cursor: pointer;
 }
-
 
 .filter-wrap input[type="radio"] + label {
     display: block;
@@ -2022,7 +2025,6 @@ input[type="radio"]:disabled + label {
 .sorting-btn-wrap .sorting-button:last-child {
     margin-right: 0;
 }
-
 
 .sorting-btn-wrap .active {
     color: #ee3643;
@@ -2182,7 +2184,6 @@ input[type="radio"]:disabled + label {
     background-color: #ee3643;
     color: #ffffff;
 }
-
 
 .continue-shopping-btn {
     width: 130px;
