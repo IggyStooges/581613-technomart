@@ -1670,7 +1670,6 @@ a {
     vertical-align: middle;
     margin: 0;
     font-size: 13px;
-    font-family: "PT sans";
     text-transform: uppercase;
 }
 
@@ -1730,7 +1729,6 @@ a {
     padding-bottom: 10px;
     border-radius: 3px;
     background-color: #f7f3ec;
-    font-family: "PT sans";
     font-size: 13px;
 }
 
@@ -1743,7 +1741,6 @@ a {
     font-size: 17px;
     line-height: 30px;
     font-weight: bold;
-    font-family: "PT sans";
     text-transform: uppercase;
 }
 
@@ -1976,7 +1973,6 @@ input[type="radio"]:disabled + label {
     text-transform: uppercase;
     color: #000000;
     font-size: 13px;
-    font-family: "PT sans";
 }
 
 .sorting-wrap {
@@ -1988,7 +1984,6 @@ input[type="radio"]:disabled + label {
     padding-bottom: 10px;
     border-radius: 3px;
     background-color: #f7f3ec;
-    font-family: "PT sans";
     font-size: 13px;
 }
 
@@ -2071,7 +2066,6 @@ input[type="radio"]:disabled + label {
     display: inline-block;
     vertical-align: middle;
     font-size: 13px;
-    font-family: "PT sans";
 }
 
 .pages-list a {
