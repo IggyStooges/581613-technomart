@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7C
-PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -57,29 +56,29 @@ PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
       </div>
     </div>
     <nav class="main-navigation">
-        <ul class="site-navigation">
-            <li>
-              <a href="index.html">Главная</a>
-            </li>
-            <li>
-              <a href="#">Компания</a>
-            </li>
-            <li>
-              <a href="inner.html">Каталог</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Спецпредложение</a>
-            </li>
-            <li>
-              <a href="#">Доставка</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
+      <ul class="site-navigation">
+        <li>
+          <a>Главная</a>
+        </li>
+        <li>
+          <a href="#">Компания</a>
+        </li>
+        <li>
+          <a href="inner.html">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Новости</a>
+        </li>
+        <li>
+          <a href="#">Спецпредложение</a>
+        </li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
@@ -343,13 +342,13 @@ PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
             Вы можете забрать товар сами, заехав в наш офис:
           </p>
           <div class="map">
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461584686!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1533671831030">
+            <a class="map-link" href="https://goo.gl/maps/2qCaZhwxNMz">
               <img class="small-map" src="img/small-map.png" width="300" height="158" alt="карта">
             </a>
-              <section class="map-up">
+            <section class="map-up">
               <button class="map-up-close" type="button"></button>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461584686!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1533671831030"
-              width="300" height="158" style="border:0" allowfullscreen></iframe>
+                width="940" height="446" style="border:0" allowfullscreen></iframe>
               <img class="big-map" src="img/bigmap.png" width="940" height="446" alt="карта">
             </section>
           </div>
@@ -443,7 +442,7 @@ PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
             <a href="#">mail@htmlacademy.ru</a>
           </p>
           <p>Разработано:
-              <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </p>
         </div>
       </div>
@@ -457,18 +456,18 @@ PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
           <div class="fieldset-wrap">
             <div class="name-wrap">
               <label for="your-name">Ваше имя:</label>
-              <input type="text" id="your-name" placeholder="Имя Фамилия">
+              <input type="text" id="your-name" name="your-name" placeholder="Имя Фамилия">
             </div>
             <div class="mail-wrap">
               <label for="your-mail">Ваш e-mail:</label>
-              <input type="email" id="your-mail" placeholder="email@example.com">
+              <input type="email" id="your-mail" name="your-mail" placeholder="email@example.com">
             </div>
           </div>
           <label for="letter-area">Текст письма:</label>
-          <textarea name="letter" id="letter-area" rows="5"> В свободной форме </textarea>
+          <textarea name="letter-area" id="letter-area" rows="5"> В свободной форме </textarea>
         </fieldset>
         <div class="send-wrap">
-          <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
+          <button class="send-btn link-btn" type="submit">ОТПРАВИТЬ</button>
         </div>
       </form>
     </div>
@@ -477,3 +476,5 @@ PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <script src="js/script.js"></script>
 
 </body>
+
+</html>
