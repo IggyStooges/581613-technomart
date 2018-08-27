@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -37,8 +37,8 @@
           <p class="contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
         <ul class="user-menu">
-          <li class="login">
-            <a href="#">
+          <li>
+            <a class="login" href="#">
               <svg width="20px" height="17px" viewBox="0 0 20 17" enable-background="new 0 0 20 17" xml:space="preserve">
                 <g>
                   <polygon fill="#32425c" points="14.875,8.5 6,0 6,6 0,6 0,11 6,11 6,17 	" />
@@ -58,39 +58,25 @@
     <nav class="main-navigation">
       <ul class="site-navigation">
         <li>
-          <a href="#">
-            <span>Главная</span>
-          </a>
+          <a>Главная</a>
         </li>
         <li>
-          <a href="#">
-            <span>Компания</span>
-          </a>
+          <a href="#">Компания</a>
         </li>
         <li>
-          <a href="inner.html">
-            <span>Каталог</span>
-          </a>
+          <a href="inner.html">Каталог</a>
         </li>
         <li>
-          <a href="#">
-            <span>Новости</span>
-          </a>
+          <a href="#">Новости</a>
         </li>
         <li>
-          <a href="#">
-            <span>Спецпредложение</span>
-          </a>
+          <a href="#">Спецпредложение</a>
         </li>
         <li>
-          <a href="#">
-            <span>Доставка</span>
-          </a>
+          <a href="#">Доставка</a>
         </li>
         <li>
-          <a href="#">
-            <span>Контакты</span>
-          </a>
+          <a href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -99,21 +85,20 @@
   <main class="main-container">
     <section class="offers">
       <div class="wrapper">
-          <ul class="offers-list">
-            <li>
-              <div class="flag-new">новинка</div>
-              <h3>Материалы</h3>
-              <a href="#">на любой вкус</a>
-            </li>
-            <li>
-              <h3>Инструмент</h3>
-              <a href="#">на все случаи</a>
-            </li>
-            <li>
-              <h3>Техника</h3>
-              <a href="#">для стройки</a>
-            </li>
-          </ul>
+        <ul class="offers-list">
+          <li class="flag-new">
+            <h3>Материалы</h3>
+            <a href="#">на любой вкус</a>
+          </li>
+          <li>
+            <h3>Инструмент</h3>
+            <a href="#">на все случаи</a>
+          </li>
+          <li>
+            <h3>Техника</h3>
+            <a href="#">для стройки</a>
+          </li>
+        </ul>
         <div class="features-wrap">
           <div class="slider">
             <div class="slider-control">
@@ -122,7 +107,7 @@
               <button class="slider-conroller active">
               </button>
             </div>
-              <button class="slider-next slider-arrow">Следующий слайд
+            <button class="slider-next slider-arrow">Следующий слайд
             </button>
             <button class="slider-prev slider-arrow">Предыдущий слайд
             </button>
@@ -216,8 +201,7 @@
             <div class="discount">30 500 Р.</div>
             <div class="price">25 500 Р.</div>
           </li>
-          <li>
-            <div class="flag-new">новинка</div>
+          <li class="flag-new">
             <div class="actions">
               <a href="#" class="buy">
                 <svg width="15" height="15" viewBox="0 0 15 15">
@@ -358,15 +342,17 @@
             Вы можете забрать товар сами, заехав в наш офис:
           </p>
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461584686!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1533671831030"
-              width="300" height="158" style="border:0" allowfullscreen></iframe>
+            <a class="map-link" href="https://goo.gl/maps/2qCaZhwxNMz">
+              <img class="small-map" src="img/small-map.png" width="300" height="158" alt="карта">
+            </a>
             <section class="map-up">
               <button class="map-up-close" type="button"></button>
-
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461584686!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1533671831030"
+                width="940" height="446" style="border:0" allowfullscreen></iframe>
               <img class="big-map" src="img/bigmap.png" width="940" height="446" alt="карта">
             </section>
           </div>
-          <a class="write-us link-btn" href="#">заблудились? напишите нам!</a>
+          <a class="write-us link-btn" href="writeus.html">заблудились? напишите нам!</a>
         </section>
 
       </div>
@@ -387,7 +373,7 @@
                 <a href="#">Новости</a>
               </li>
               <li>
-                <a href="#">Каталог</a>
+                <a href="inner.html">Каталог</a>
               </li>
               <li>
                 <a href="#">Доставка</a>
@@ -456,7 +442,7 @@
             <a href="#">mail@htmlacademy.ru</a>
           </p>
           <p>Разработано:
-            <a href="#">htmlacademy.ru</a>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </p>
         </div>
       </div>
@@ -464,29 +450,31 @@
   </footer>
   <section class="pop-up">
     <button class="pop-up-close" type="button"></button>
-
     <div class="pop-up-wrap">
-      <form class="pop-up-form" method="post" action="http/">
+      <form class="pop-up-form" action="https://echo.htmlacademy.ru" method="get">
         <fieldset class="main-fieldset">
           <div class="fieldset-wrap">
             <div class="name-wrap">
               <label for="your-name">Ваше имя:</label>
-              <input type="text" id="your-name" placeholder="Представьтесь, пожалуйста">
+              <input type="text" id="your-name" name="your-name" placeholder="Имя Фамилия">
             </div>
             <div class="mail-wrap">
               <label for="your-mail">Ваш e-mail:</label>
-              <input type="email" id="your-mail" placeholder="Для отправки ответа">
+              <input type="email" id="your-mail" name="your-mail" placeholder="email@example.com">
             </div>
           </div>
           <label for="letter-area">Текст письма:</label>
-          <textarea name="letter" id="letter-area" rows="5"> В свободной форме </textarea>
+          <textarea name="letter-area" id="letter-area" rows="5"> В свободной форме </textarea>
         </fieldset>
         <div class="send-wrap">
-          <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
+          <button class="send-btn link-btn" type="submit">ОТПРАВИТЬ</button>
         </div>
       </form>
     </div>
   </section>
+
   <script src="js/script.js"></script>
 
 </body>
+
+</html>
