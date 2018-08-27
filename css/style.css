@@ -1613,7 +1613,9 @@ a {
 }
 
 .pop-up-close::before,
-.pop-up-close::after {
+.pop-up-close::after,
+ .inner-up-close::before,
+ .inner-up-close::after{
   content: "";
   position: absolute;
   top: 10px;
@@ -1623,11 +1625,13 @@ a {
   background-color: #ee3643;
 }
 
-.pop-up-close::before {
+.pop-up-close::before,
+.inner-up-close::before {
   transform: rotate(45deg);
 }
 
-.pop-up-close::after {
+.pop-up-close::after,
+.inner-up-close::after {
   transform: rotate(-45deg);
 }
 

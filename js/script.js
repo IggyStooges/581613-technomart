@@ -6,10 +6,6 @@
   var mapup = document.querySelector(".map-up");
   var mapclose = document.querySelector(".map-up-close");
 
-  var innerlink = document.querySelector(".huy");
-  var innerup = document.querySelector(".inner-popup");
-  var innerclose = document.querySelector(".inner-up-close");
-
   var login = popup.querySelector("[name=your-name]");
   var email = popup.querySelector("[name=your-mail]");
   var area = popup.querySelector(".letter-area");
