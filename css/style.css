@@ -739,11 +739,11 @@ a {
 }
 
 .active-slider {
-  z-index: 3;
+  display: block;
 }
 
 .disactive-slider {
-  z-index: 1;
+  display: none;
 }
 
 .main-container .features-wrap {
@@ -1055,7 +1055,7 @@ a {
 
 .main-container .services {
   padding-top: 65px;
-  padding-bottom: 101px;
+  padding-bottom: 24px;
   background-color: #f4f8f9;
 }
 
@@ -1164,9 +1164,6 @@ a {
 }
 
 .services-wrap .slider-item {
-  position: absolute;
-  top: 45px;
-  left: 0;
   width: 630px;
   min-height: 120px;
   padding-bottom: 105px;
@@ -1386,7 +1383,7 @@ a {
 
 .footer-hat-top a {
   padding: 0;
-  padding-left:3px;
+  padding-left: 3px;
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
