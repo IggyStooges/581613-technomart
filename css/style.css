@@ -730,7 +730,7 @@ a {
 .slider-arrow {
   position: absolute;
   top: 114px;
-  z-index: 500;
+  z-index: 5;
   width: 22px;
   height: 40px;
   border: none;
@@ -770,6 +770,11 @@ a {
   background-color: #6b635f;
   background-image: url('../img/slider1.jpg');
   background-repeat: no-repeat;
+}
+
+.slider-btn {
+  font-size:0;
+  cursor: pointer;
 }
 
 .active-slider {
