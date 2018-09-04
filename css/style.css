@@ -279,6 +279,7 @@ a {
 }
 
 .contacts-phone {
+  display:block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
@@ -291,6 +292,7 @@ a {
   background-image: url("../img/icon-phone.svg");
   background-position: 13px 50%;
   background-repeat: no-repeat;
+  text-decoration: none;
   color: #ee3643;
   font-size: 21px;
   line-height: 21px;
@@ -1504,6 +1506,16 @@ a {
   font-size: 18px;
   line-height: 24px;
 }
+
+.footer-hat .tel {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 
 .footer-hat-top a {
   padding: 0;
