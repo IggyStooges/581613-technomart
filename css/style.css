@@ -453,13 +453,13 @@ a {
 .user-links li:first-child::after {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   margin-right: 12px;
   margin-left: 12px;
   width: 4px;
   height: 4px;
   border-radius: 2px;
   background-color: #32425c;
-  vertical-align: middle;
   text-align: center;
 }
 
@@ -976,10 +976,10 @@ a {
   opacity: 0;
 }
 
-.items-list li:hover .actions,
-.products-list li:hover .actions,
-.items-list li:focus .actions,
-.products-list li:focus .actions {
+.item:hover .actions,
+.product:hover .actions,
+.item:focus .actions,
+.product li:focus .actions {
   opacity: 1;
 }
 
@@ -1011,9 +1011,9 @@ a {
   opacity: 1;
 }
 
-.actions .buy:hover>svg,
-.actions .buy:active>svg,
-.actions .buy:focus>svg {
+.buy:hover>svg,
+.buy:active>svg,
+.buy:focus>svg {
   opacity: 1;
 }
 
@@ -1922,9 +1922,9 @@ a {
 .breadcrumbs a {
   position: relative;
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   margin-right: 37px;
-  vertical-align: middle;
   color: #000000;
   text-transform: uppercase;
   font-size: 13px;
@@ -2029,6 +2029,7 @@ a {
 
 .cost-control input[type="number"] {
   display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   padding-top: 12px;
   padding-bottom: 8px;
@@ -2037,7 +2038,6 @@ a {
   border-radius: 3px;
   background-color: #f7f3ec;
   color: #000000;
-  vertical-align: middle;
   text-align: center;
   font-size: 17px;
   line-height: 18px;
@@ -2055,11 +2055,11 @@ input::-webkit-inner-spin-button {
 .cost-control span {
   content: "—";
   display: inline-block;
+  vertical-align: middle;
   margin-right: 10px;
   margin-left: 10px;
   width: 10px;
   color: #000000;
-  vertical-align: middle;
   font-size: 16px;
   line-height: 18px;
 }
@@ -2351,11 +2351,11 @@ input[type="radio"]:disabled+label {
 
 .pages-list a {
   display: inline-block;
+  vertical-align: middle;
   padding: 9px 15px;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   color: #000000;
-  vertical-align: middle;
 }
 
 .pages-list .page-number {
