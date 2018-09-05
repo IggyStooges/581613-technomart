@@ -761,13 +761,13 @@ a {
 
 .slider-prev {
   left: 25px;
-  background-image: url(../img/icon-left.svg);
+  background-image: url("../img/icon-left.svg");
   background-repeat: no-repeat;
 }
 
 .slider-next {
   right: 20px;
-  background-image: url(../img/icon-right.svg);
+  background-image: url("../img/icon-right.svg");
   background-repeat: no-repeat;
 }
 
@@ -1221,7 +1221,7 @@ a {
   right: 0;
   width: 10px;
   height: 279px;
-  background-image: url(../img/layer2.png);
+  background-image: url("../img/layer2.png");
   background-repeat: no-repeat;
 }
 
@@ -1291,19 +1291,19 @@ a {
 }
 
 .delivery-wrap {
-  background-image: url(../img/delivery.png);
+  background-image: url("../img/delivery.png");
   background-position: 153px 25px;
   background-repeat: no-repeat;
 }
 
 .guarantee-wrap {
-  background-image: url(../img/guarantee.png);
+  background-image: url("../img/guarantee.png");
   background-position: 239px 3px;
   background-repeat: no-repeat;
 }
 
 .credit-wrap {
-  background-image: url(../img/credit.png);
+  background-image: url("../img/credit.png");
   background-position: 165px 0px;
   background-repeat: no-repeat;
 }
@@ -1940,7 +1940,7 @@ a {
   width: 8px;
   height: 12px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url(../img/icon-right-small.svg);
+  background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
 }
 
@@ -1948,7 +1948,7 @@ a {
   margin-right: 38px;
   width: 14px;
   height: 12px;
-  background-image: url(../img/icon-home.svg);
+  background-image: url("../img/icon-home.svg");
   font-size: 0;
 }
 
