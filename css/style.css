@@ -252,7 +252,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 37px;
+  margin-bottom: 40px;
   padding-top: 46px;
   padding-bottom: 0;
   width: 940px;
@@ -279,7 +279,7 @@ a {
 }
 
 .contacts-phone {
-  display:block;
+  display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
@@ -302,7 +302,6 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
-  padding-top: 4px;
   padding-right: 5px;
   padding-left: 10px;
   width: 270px;
@@ -318,7 +317,7 @@ a {
   margin: 0;
   margin-left: auto;
   padding: 0;
-  width: 300px;
+  width: 280px;
   list-style: none;
 }
 
@@ -327,7 +326,7 @@ a {
 }
 
 .user-menu li:first-child {
-  width: 140px;
+  width: 120px;
 }
 
 .user-menu .login {
@@ -357,7 +356,7 @@ a {
 }
 
 .user-menu svg {
-  margin-right: 28px;
+  margin-right: 8px;
   opacity: 0.3;
 }
 
@@ -1515,7 +1514,6 @@ a {
   font-size: 18px;
   line-height: 24px;
 }
-
 
 .footer-hat-top a {
   padding: 0;
