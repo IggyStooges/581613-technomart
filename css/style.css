@@ -252,7 +252,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   padding-top: 46px;
   padding-bottom: 0;
   width: 940px;
@@ -279,10 +279,10 @@ a {
 }
 
 .contacts-phone {
-  display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
+  margin-bottom:3px;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 10px;
@@ -1369,7 +1369,7 @@ a {
 .index-columns p {
   margin: 0;
   padding: 0;
-  padding-bottom: 24px;
+  padding-bottom: 22px;
   width: 520px;
   font-size: 13px;
   line-height: 24px;
@@ -1382,7 +1382,7 @@ a {
 
 .index-columns .partners-list {
   margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 37px;
   padding: 0;
   width: 220px;
   list-style: none;
@@ -1432,7 +1432,7 @@ a {
   content: "";
   position: absolute;
   top: 50%;
-  left: -5px;
+  left: 0;
   margin: 0;
   padding: 0;
   width: 25px;
@@ -1501,15 +1501,6 @@ a {
   padding: 0;
   padding-left: 3px;
   width: 325px;
-  color: #f3f7f9;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.footer-hat .tel {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
   color: #f3f7f9;
   font-size: 18px;
   line-height: 24px;
@@ -2654,3 +2645,4 @@ input[type="radio"]:disabled+label {
     transform: translateX(-48%) translateY(-50%);
   }
 }
+
